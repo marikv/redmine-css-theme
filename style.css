@@ -8,9 +8,6 @@ body, #wrapper {
 	background: linear-gradient(to right, rgba(120, 109, 242, 1) 0%, rgba(76, 67, 207, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#786df2', endColorstr='#4c43cf', GradientType=1);
 }
-#wrapper {
-	margin: 25px;
-}
 #top-menu, #header {
 	background:none;
 }
@@ -44,6 +41,12 @@ body, #wrapper {
 }
 label[for="q"] {
 	display:none;
+}
+#login-form {
+  width: 480px;
+}
+#login-form > form > table{
+  padding: 30px;
 }
 #q, #project_quick_jump_box, #login-form input#username, #login-form input#password {
 	border: 1px solid white;
@@ -123,8 +126,8 @@ a.icon.icon-copy {
 	color: white;
 	border: none;
 	cursor:pointer;
-	padding: 9px 23px;
-	margin: 0 20px 0 0;
+	padding: 8px 15px;
+	margin: 0 13px 0 0;
 	border-radius: 3px;
 	font-weight:normal;
 	-webkit-box-shadow: -5px 4px 32px 0px rgba(0, 0, 0, 0.35);
